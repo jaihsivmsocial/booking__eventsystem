@@ -1,0 +1,37 @@
+{
+  "name": "bookingevent",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "payload build",
+    "serve": "payload serve"
+  },
+  "author": "",
+  "license": "ISC",
+ "dependencies": {
+    "express": "4.18.2",
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "bcrypt": "5.1.1",
+    "jsonwebtoken": "9.0.2",
+    "cross-env": "7.0.3",
+    "pg": "8.11.3",
+    "compression": "1.7.4",
+    "helmet": "7.1.0",
+    "morgan": "1.10.0",
+    "payload": "2.8.0",
+    "@payloadcms/db-postgres": "0.8.0",
+    "@payloadcms/richtext-slate": "1.5.0",
+    "@payloadcms/bundler-vite": "0.1.9",
+    "vite": "^4.4.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "drizzle-orm": "^0.28.0",
+    "drizzle-kit": "^0.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.2"
+  },
+  "description": ""
+}
